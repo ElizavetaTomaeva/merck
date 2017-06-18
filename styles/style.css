@@ -1,0 +1,26 @@
+@import "/styles/header.css";
+@import "/styles/card-section.css";
+@import "/styles/footer.css";
+@import "/styles/navigation.css";
+@import "/styles/aside.css";
+
+
+a {
+    text-decoration: none;
+}
+
+img, form, a, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+
+img {
+    display: block;
+}
+
+body {
+    margin: 0;
+    background-color: #fafafa;;
+}

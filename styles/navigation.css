@@ -1,0 +1,131 @@
+body > nav {
+    /*width: 1366px;*/
+    height: 48px;
+    /*background-color: red;*/
+    background-color: #ffffff;
+    /*float: top;*/
+    /*position: relative;*/
+    vertical-align: middle;
+    border: 1px solid rgba(191, 191, 191, 0.25);
+}
+
+.back-arrow {
+    float: left;
+    padding: 17px 9px 19px 25px;
+    /*padding-left: 25px;*/
+    /*padding-bottom: 18px;*/
+    z-index: 1;
+}
+
+.to-the-input {
+    float: left;
+    padding: 15px 24px 17px 0;
+    font-family: Arial;
+    font-size: 14px;
+    color: #079894;
+    z-index: 1;
+
+}
+
+.results {
+    float: left;
+    padding-top: 11px;
+    color: #48484a;
+    font-family: Arial;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.points-menu {
+    float: right;
+    padding: 16px 180px 16px 11px;
+    z-index: 1;
+    /*position: absolute;*/
+}
+
+.points-menu:hover #menu {
+    display: block;
+    /*opacity: 1;*/
+}
+
+/*выпадающее меню*/
+
+#menu {
+    /*opacity: 0;*/
+    display: none;
+    float: right;
+    /*padding-top: 0;*/
+    /*position: relative;*/
+    padding-right: 11px;
+    /*padding: 64px 211px;*/
+    width: 214px;
+    height: 153px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+body > nav > div > ul {
+
+    margin-left: 0; /* IE и Opera */
+    padding-left: 0; /* Firefox, Safari, Chrome */
+}
+
+
+body > nav > div > ul > li {
+    display: inline;
+    list-style-type: none;
+    height: 51px;
+    float: left;
+    padding-left: 24px;
+    color: #48484a;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.checkbox {
+    display: none;
+}
+
+.new-checkbox {
+    float: left;
+    /*padding-left: ;*/
+    position: relative;
+    background: url('/images/unchecked_box.png');
+    height: 18px;
+    width: 18px;
+
+    /*border: 2px solid #48484a;*/
+
+    /*opacity: 0.87;*/
+    /*border-radius: 3px;*/
+
+}
+
+.new-checkbox,
+.description {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.checkbox:checked + .new-checkbox::before {
+    content: "";             /* псевдоэлемент */
+    display: block;
+    position: absolute;
+
+    /* расстояние*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background: url('/images/checked_box.png');
+    border-color: #009688;
+    /*border-radius: 0.25px;*/
+}
+
+.description {
+    float: left;
+    padding-left: 7px;
+}

@@ -1,0 +1,52 @@
+body > header {
+    background-color: #079894;
+    height: 64px;
+    vertical-align: middle;
+}
+
+.burger-menu {
+    float: left;
+    /*padding-right: 20px;*/
+    padding: 26px 20px 26px 24px;
+}
+
+.logo {
+    float: left;
+    padding-right: 15px;
+    padding-top: 17px;
+    /*padding: 17px 15px 15px 26px;*/
+}
+
+.divider {
+    float: left;
+    padding-right: 17px;
+    padding-top: 18px;
+    /*padding: 18px 17px;*/
+}
+
+.test-name {
+    float: left;
+    padding-top: 22px; /*25*/
+    /*padding-bottom: 25px;*/
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 18px;
+
+}
+
+.logout-icon {
+    float: right;
+    padding: 18px 31px 18px 7px;
+}
+
+.user-name {
+    float: right;
+    padding-right: 7px;
+    padding-top: 23px;
+    /*padding: 27px 66px 26px 1201px;*/
+    /*padding: 27px 7px 26px;*/
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+}

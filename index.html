@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Merck</title>
+    <!--refresh-->
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+
+
+<header>
+    <a class="burger-menu" href="/">
+    <img src="/images/menu_icon.png"/>
+    </a>
+    <a class="logo" href="/">
+        <img src="/images/logo.png" alt="index"/>
+    </a>
+    <a class="divider">
+    <img src="/images/vertical_line.png"/>
+    </a>
+    <a class="test-name">
+    <div>Test Name</div>
+    </a>
+    <a class="logout-icon" href="#"><img id="quit-icon" src="/images/quit.png" alt="userQuit"/>
+    </a>
+    <a class="user-name">
+        <div>Nikita Karuze</div>
+    </a>
+
+</header>
+<nav>
+    <a class="back-arrow">
+        <img src="/images/green_arrow_left.png"/>
+    </a>
+    <a class="to-the-input">
+    <div>To the Input page</div>
+    </a>
+    <a class="results">
+    <div>Results for “Test Name”</div>
+    </a>
+    <a class="points-menu" id='points-menu' onmouseover="open_menu('menu')"  href="#"><img src="/images/points_menu.png"/>
+    </a>
+    <div id="menu">
+        <ul>
+            <li>
+                <!--<img src="/images/unchecked_box.png" onclick='this.src="images/checked_box.png"'>-->
+                <label>
+                    <input class="checkbox" type="checkbox" id="checkbox1">
+                    <span class="new-checkbox"></span>
+                    <span class="description">Pred_Absorrbtion_PAPP</span>
+                </label>
+            </li>
+            <li>
+                <!--<img src="/images/unchecked_box.png" onclick='this.src="images/checked_box.png"'>-->
+                <label>
+                    <input class="checkbox" type="checkbox" id="checkbox1">
+                    <span class="new-checkbox"></span>
+                    <span class="description">Pred_Human_Fraction</span>
+                </label>
+            </li>
+            <li>
+                <!--<img src="/images/unchecked_box.png" onclick='this.src="images/checked_box.png"'>-->
+                <label>
+                    <input class="checkbox" type="checkbox" id="checkbox1">
+                    <span class="new-checkbox"></span>
+                    <span class="description">Pred_Absorbtion_CNS</span>
+                </label>
+            </li>
+        </ul>
+    </div>
+
+</nav>
+
+<main>
+    <aside>
+        <ul>
+            <!--<li><a href="#">&#xf01b;</a></li>-->
+            <li>
+                <div>View<a class="arrow"><img src="/images/arrow_down.png"></a></div>
+            </li>
+            <li>
+                <div>Graph<a class="arrow"><img src="/images/arrow_down.png"></a></div>
+            </li>
+            <li>
+                <div>Colors<a class="arrow"><img src="/images/arrow_down.png"></a></div>
+            </li>
+            <li>
+                <div>Export<a class="arrow"><img src="/images/arrow_down.png"></a></div>
+            </li>
+            <li>
+                <div>Math<a class="arrow"><img src="/images/arrow_down.png"></a></div>
+            </li>
+            <li>
+                <div>Actions<a class="arrow"><img src="/images/arrow_down.png"></a></div>
+            </li>
+        </ul>
+    </aside>
+
+    <section>
+
+        <!--Edit table-->
+
+        <!--Cards -->
+        <article id="card">
+            <header>
+                <img src="/images/checked_box.png"/>
+                <!--<input class="atricle-checkbox" type="checkbox" id="checkbox1">-->
+                <small id="number"></small>
+                <p id="card-title"></p>
+                <!--<p>Clint_Dog_hepatocyte<wbr>(mL/min/kg)</p>-->
+            </header>
+
+            <div id="image-block">
+                <img src="/images/section_picture.png"/>
+                <a href="#" ><div id="card-id"></div></a>
+            </div>
+
+            <div id="tool-block">
+                <img src="/images/pen.png"/>
+                <p>L+</p>
+                <img src="/images/arrow_left.png" id="arrow-left"/>
+                <img src="/images/arrow_right.png" id="arrow-right"/>
+            </div>
+
+            <ul>
+                <li>
+                    <p>Pred_Absorbtion_PAPP</p>
+                    <p id="res1"></p>
+                </li>
+                <li>
+                    <p>Pred_Human_Fraction</p>
+                    <p id="res2"</p>
+                </li>
+                <li>
+                    <p>Pred_Absorbtion_CNS</p>
+                    <p id="res3"></p>
+                </li>
+                <li>
+                    <p>Calc_Oral_Absorbtion</p>
+                    <p id="res4"></p>
+                </li>
+            </ul>
+        </article>
+
+        <article>
+            <header>
+                <img src="/images/checked_box.png"/>
+                <small>10</small>
+                <p>Clint_Dog_hepatocyte<wbr>(mL/min/kg)</p>
+            </header>
+
+            <div id="image-block">
+                <img src="/images/section_picture.png"/>
+                <a href="#"><div>L-000315185-003W</div></a>
+            </div>
+
+            <div id="tool-block">
+                <img src="/images/pen.png"/>
+                <p>L+</p>
+                <img src="/images/arrow_left.png" id="arrow-left"/>
+                <img src="/images/arrow_right.png" id="arrow-right"/>
+            </div>
+
+            <ul>
+                <li>
+                    <p>Pred_Absorbtion_PAPP</p>
+                    <p>34</p>
+                </li>
+                <li>
+                    <p>Pred_Human_Fraction</p>
+                    <p>0.024</p>
+                </li>
+                <li>
+                    <p>Pred_Absorbtion_CNS</p>
+                    <p>1</p>
+                </li>
+                <li>
+                    <p>Calc_Oral_Absorbtion</p>
+                    <p>Good</p>
+                </li>
+            </ul>
+        </article>
+
+        <article>
+            <header>
+                <img src="/images/checked_box.png"/>
+                <small>10</small>
+                <p>Clint_Dog_hepatocyte<wbr>(mL/min/kg)</p>
+            </header>
+
+            <div id="image-block">
+                <img src="/images/section_picture.png"/>
+                <a href="#"><div>L-000315185-003W</div></a>
+            </div>
+
+            <div id="tool-block">
+                <img src="/images/pen.png"/>
+                <p>L+</p>
+                <img src="/images/arrow_left.png" id="arrow-left"/>
+                <img src="/images/arrow_right.png" id="arrow-right"/>
+            </div>
+
+            <ul>
+                <li>
+                    <p>Pred_Absorbtion_PAPP</p>
+                    <p id="res1">34</p>
+                </li>
+                <li>
+                    <p>Pred_Human_Fraction</p>
+                    <p id="res2">0.024</p>
+                </li>
+                <li>
+                    <p>Pred_Absorbtion_CNS</p>
+                    <p id="res3">1</p>
+                </li>
+                <li>
+                    <p>Calc_Oral_Absorbtion</p>
+                    <p id="res4">Good</p>
+                </li>
+            </ul>
+        </article>
+
+    </section>
+</main>
+
+<footer>
+    <a class="info">
+    <div>© ADMET 2.0  07/07/2016 10:54:54 PM r.10458 </div>
+    </a>
+</footer>
+<script src="/script.js"></script>
+</body>
+
+</html>

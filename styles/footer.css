@@ -1,0 +1,23 @@
+body > footer {
+    background-color: #eeeeee;
+    height: 24px;
+    width: 100%;
+    /*24*/
+    /*position: relative;*/
+    /*position: fixed;*/
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.info {
+    color: dimgray;
+    /*color: #000000;*/
+    font-family: Arial;
+    font-size: 11px;
+    float: left;
+    padding: 10px 537px 6px 579px;
+    /*padding-left: 579px;*/
+    /*padding-bottom: 6px;*/
+}
